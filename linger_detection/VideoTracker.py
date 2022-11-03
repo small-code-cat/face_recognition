@@ -182,7 +182,7 @@ class VideoTracker(object):
                 is_linger = True
                 break
         if is_linger:
-            print('----------开始发送视频----------')
+            print('警告！未知人员在监控区域逗留时间过长，开始将录制视频发送给房主...')
             # 开始将识别后的视频发送给主人
         return is_linger
 

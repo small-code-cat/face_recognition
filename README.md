@@ -16,3 +16,4 @@ python >= 3.7
 #### 注意事项
 本项目中默认陌生人出镜率超过50%就算是徘徊了，这个参数可以在main.py中的get_VideoTracker中修改--linger_thres，默认是0.5
 
+徘徊检测的视频存储在linger_detection/output
